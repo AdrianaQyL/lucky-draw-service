@@ -121,7 +121,6 @@ module.exports = {
                 Object.defineProperty(configuration, 'prizes', {
                     value: prizeList
                 })
-                console.log(configuration.prizes[0])
                 resolve(configuration) // 返回configuration到请求
             });
         })
